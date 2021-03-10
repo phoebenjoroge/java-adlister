@@ -15,7 +15,7 @@
 </head>
 <body>
 
-
+<jsp:include page="partials/nav.jsp" />
 <main class="container">
 
     <h2>Profile Page</h2>
