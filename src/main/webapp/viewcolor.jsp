@@ -7,10 +7,14 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>View Color</title>
+</head>
+<body>
+<h2>How about this for a favorite color? </h2>
+
+<style>
+    body {background-color: ${favoriteColor}}
+</style>
+</body>
 </html>

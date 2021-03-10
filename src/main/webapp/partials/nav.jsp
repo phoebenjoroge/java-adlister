@@ -16,11 +16,3 @@
     </div>
 </nav>
 
-git branch servlets-exercise
-git checkout -b servlets-exercise
-
-git checkout jsp-and-jstl
-git checkout -b jsp-and-jstl-exercise
-
-git branch
-git checkout -b servlets-with-jsps

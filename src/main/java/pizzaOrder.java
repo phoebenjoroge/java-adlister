@@ -13,5 +13,15 @@ public class pizzaOrder extends HttpServlet{
         request.getRequestDispatcher("pizza-order.jsp").forward(request, response);
     }
 
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String crust = request.getParameter("crust");
+        String [] toppings = request.getParameterValues("topping");
+
+        System.out.println(crust);
+        for(int i=0; i < toppings.length -1; i++){
+            System.out.println(toppings[i]);
+        }
+    }
 }
 

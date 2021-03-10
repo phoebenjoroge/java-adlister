@@ -7,10 +7,18 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>Guess Number</title>
+</head>
+<body>
+<h2>Guess what number I'm thinking of</h2>
+
+<form action="/guess" method="POST">
+
+    <input name="guess_number" type="text" placeholder="Enter your number here.">
+    <br>
+    <input type="submit" value="Guess Number">
+
+</form>
+</body>
 </html>
