@@ -1,3 +1,8 @@
+package com.codeup.adlister.dao;
+
+import com.codeup.adlister.dao.Ad;
+import com.codeup.adlister.dao.Ads;
+
 import java.util.ArrayList;
 import java.util.List;
 
